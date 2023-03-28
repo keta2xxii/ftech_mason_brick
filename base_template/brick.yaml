@@ -10,7 +10,6 @@ version: 0.1.0+1
 # It includes the version of mason that the brick requires.
 environment:
   mason: ">=0.1.0-dev.41 <0.1.0"
-
 # Variables specify dynamic values that your brick depends on.
 # Zero or more variables can be specified for a given brick.
 # Each variable has:
@@ -20,24 +19,3 @@ environment:
 #  * an optional list of default values (array only)
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
-vars:
-  bundleId:
-    type: string
-    description: Your project Bundle ID
-    default: Dash
-    prompt: What is your project Bundle ID?
-  applicationID:
-    type: string
-    description: Your project Application ID
-    default: Dash
-    prompt: What is your project Application ID?
-  appName:
-    type: string
-    description: Your project Application Name
-    default: Dash
-    prompt: What is your project Application Name?
-  flutterID:
-    type: string
-    description: Your project Flutter ID
-    default: Dash
-    prompt: What is your project Flutter ID?
