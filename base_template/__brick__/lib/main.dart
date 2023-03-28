@@ -1,8 +1,8 @@
-import 'package:base_source/modules/user_viewmodel.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../modules/user_viewmodel.dart';
 import 'app/app_routers.dart';
 import 'app/app_styles.dart';
 import 'app/app_themes.dart';

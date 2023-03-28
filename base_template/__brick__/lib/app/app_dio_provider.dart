@@ -1,9 +1,10 @@
 import 'dart:developer';
 import 'dart:io';
-import 'package:base_source/utils/my_device_info.dart';
+
 import 'package:dio/dio.dart' as dio;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../utils/my_device_info.dart';
 import 'app_keys.dart';
 
 class DioProvider {

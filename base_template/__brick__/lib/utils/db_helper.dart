@@ -1,7 +1,8 @@
-import 'package:base_source/app/app_config.dart';
-import 'package:base_source/models/db/product_tb.dart';
 import 'package:flutter/widgets.dart';
 import 'package:sqflite/sqflite.dart';
+
+import '../app/app_config.dart';
+import '../models/db/product_tb.dart';
 
 class DbHelper {
   static late Database _db;

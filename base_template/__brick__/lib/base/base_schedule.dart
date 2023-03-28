@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:base_source/generated/locale_keys.g.dart';
-import 'package:base_source/app/app_enums.dart';
 import 'package:dio/dio.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
+import '../app/app_enums.dart';
+import '../generated/locale_keys.g.dart';
 import '../models/error_response.dart';
 import '../utils/helpers.dart';
 import 'base_future.dart';
