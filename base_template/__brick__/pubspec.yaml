@@ -1,4 +1,4 @@
-name: { { flutterID } }
+name: base_source
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -87,6 +87,8 @@ flutter:
 
   assets:
     - assets/translations/
+    - assets/images/
+    - assets/icons/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
