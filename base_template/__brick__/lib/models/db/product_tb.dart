@@ -1,4 +1,4 @@
-import '../../base/base_db_model.dart';
+import 'package:base_source/base/base_db_model.dart';
 
 class ProductTB extends BaseDBModel {
   @override

@@ -21,8 +21,23 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  name:
+  bundleId:
     type: string
-    description: Your name
+    description: Your project Bundle ID
     default: Dash
-    prompt: What is your name?
+    prompt: What is your project Bundle ID?
+  applicationID:
+    type: string
+    description: Your project Application ID
+    default: Dash
+    prompt: What is your project Application ID?
+  appName:
+    type: string
+    description: Your project Application Name
+    default: Dash
+    prompt: What is your project Application Name?
+  flutterID:
+    type: string
+    description: Your project Flutter ID
+    default: Dash
+    prompt: What is your project Flutter ID?
