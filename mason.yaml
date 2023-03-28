@@ -1,4 +1,3 @@
 bricks:
-  hello: 0.1.0+1
   base_source_template:
     path: base_template
